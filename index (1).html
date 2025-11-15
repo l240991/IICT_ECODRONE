@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoDrone</title>
+    <link rel="stylesheet" href="l240991.css">
+</head>
+<body>
+<header> 
+    <h1>EcoDrone</h1>
+    <nav>
+        <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#features">Notable Features</a></li>
+            <li><a href="#join">Join Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="about">
+        <h2>About EcoDrone</h2>
+        <p>EcoDrone is an advanced solution to help monitor the environment, particularly in the coastal regions.</p>
+    </section>
+
+    <section id="features" class="grid">
+        <article>
+            <h3>Lightweight</h3>
+            <p>Designed for efficiency and mobility.</p>
+        </article>
+        <article>
+            <h3>Eco-Friendly</h3>
+            <p>Uses renewable energy for power.</p>
+        </article>
+    </section>
+
+    <section id="join">
+        <h2>If You're Interested, Join Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="rather not say">Rather Not Say</option>
+            </select>
+
+            <fieldset>
+                <legend>Interests:</legend>
+                <label><input type="checkbox" name="interest" value="tech"> Technology</label>
+                <label><input type="checkbox" name="interest" value="eco"> Sustainability</label>
+                <label><input type="checkbox" name="interest" value="drone"> Drones</label>
+            </fieldset>
+
+            <label for="about">Tell Us A Little About Yourself (optional):</label>
+            <textarea id="about" name=""></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</main>
+
+</body>
+</html>
